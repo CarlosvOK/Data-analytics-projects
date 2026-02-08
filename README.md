@@ -25,3 +25,6 @@ Practicar el nivel inicial de SQL orientado al análisis de datos, aplicando con
 
 ## Estado
 Proyecto en progreso. Se irán agregando nuevas consultas y niveles de complejidad.
+
+
+<img width="887" height="446" alt="image" src="https://github.com/user-attachments/assets/a1663cec-1044-4a36-9ed5-851b244de356" />
