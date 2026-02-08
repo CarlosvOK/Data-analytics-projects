@@ -29,6 +29,16 @@ Proyecto en progreso. Se irán agregando nuevas consultas y niveles de complejid
 
 ## Database Diagram
 
-Relación entre las tablas Clientes, Cuenta y TipoCuentas mediante claves foráneas.
+El siguiente diagrama muestra la relación entre las tablas del modelo:
+
+- **Clientes**: contiene la información principal de cada cliente.
+- **Cuenta**: almacena las cuentas asociadas a cada cliente.
+- **TipoCuentas**: define los distintos tipos de cuenta disponibles.
+
+La relación se realiza mediante **claves foráneas (FOREIGN KEY)**:
+- `Cuenta.cliente_id` referencia a `Clientes.id`
+- `Cuenta.tipo_cuenta` referencia a `TipoCuentas.id`
+
+Este esquema permite mantener la integridad de los datos y modelar correctamente la relación entre clientes, sus cuentas y el tipo de cuenta asociado.
 
 <img width="887" height="446" alt="image" src="https://github.com/user-attachments/assets/a1663cec-1044-4a36-9ed5-851b244de356" />
